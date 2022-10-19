@@ -13,10 +13,8 @@ abstract class Animal
         return $this->main;
     }
 
-    protected abstract function getNoise()
-    {
-        return $this->main;
-    }
+    protected abstract function getNoise(string $main);
+
 //    public function setAnimal($main)
 //    {
 //        $this->main = $main;
