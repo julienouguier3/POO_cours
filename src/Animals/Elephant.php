@@ -2,10 +2,13 @@
 
 namespace App\Animals;
 
-class Fish extends \App\Animal
+
+
+
+class Elephant extends \App\Animal
 {
     protected function getNoise(): string
     {
-        return 'bloubloublou';
-}
+        return 'toooooout';
+    }
 }

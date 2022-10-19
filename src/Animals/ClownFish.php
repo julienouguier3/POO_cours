@@ -2,7 +2,7 @@
 
 namespace App\Animals;
 
-class BubbleFish extends Fish
+class ClownFish extends Fish
 {
 
 }

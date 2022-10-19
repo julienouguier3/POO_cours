@@ -3,7 +3,7 @@
     "description": "First project",
     "autoload": {
         "psr-4": {
-            "Julie\\App\\": "src/"
+            "App\\": "src/"
         }
     }
 

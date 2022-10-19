@@ -4,21 +4,29 @@ namespace App;
 
 abstract class Animal
 {
-    //=============================Attribut name privé
-    private string $main;
+    //=============================Attribut 'private', lecture seulement 'readonly'===========//
+    private readonly string $name;
 
-    //==========================Get()lecture
-    public function getAnimal()
+    public function __construct(string $name)
     {
-        return $this->main;
+        $this->name = $name;
     }
 
-    protected abstract function getNoise(string $main);
+    //==================================Signature de la methode
+    abstract protected function getNoise(): string;
 
-//    public function setAnimal($main)
-//    {
-//        $this->main = $main;
-//    }
+    public function noise(): string
+    {
+        return $this->getNoise();
+    }
+
+    /**
+     * @return string
+     */
+    public function getName(): string
+    {
+        return $this->name;
+    }
 
 
 }
