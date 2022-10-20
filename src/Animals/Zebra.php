@@ -3,7 +3,9 @@
 namespace App\Animals;
 
 
-class Zebra extends \App\Animal
+use App\Interfaces\CanWalk;
+
+class Zebra extends \App\Animal implements CanWalk
 {
     protected function getNoise(): string
     {

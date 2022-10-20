@@ -5,7 +5,9 @@ namespace App\Animals;
 
 
 
-class Elephant extends \App\Animal
+use App\Interfaces\CanWalk;
+
+class Elephant extends \App\Animal implements CanWalk
 {
     protected function getNoise(): string
     {

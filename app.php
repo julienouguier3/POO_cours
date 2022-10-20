@@ -30,14 +30,19 @@ $animals = array(
         'name'=>'colombe']);
 var_dump($animals);
 
+$enclos = new \App\Enclosure();
+
 foreach ($animals as $index => $value) {
     /** @var App\Animal $index */
     for ($i = 0; $i < $value['count']; $i++) {
         $a = new $index($value['name']);
-        echo $a->getName() . " " . (string)($i + 1) . " | " . $a->noise() . PHP_EOL;
+//        echo $a->getName() . " " . (string)($i + 1) . " | " . $a->noise() . PHP_EOL;
+//        $enclos->addAnimal($instance);
+//        /App\Zoo::addAnimal($index);
     }
 
 }
+echo $enclos;
 
 //$bubble = new \App\Animals\BubbleFish('dora');
 //$catf = new \App\Animals\CatFish('')

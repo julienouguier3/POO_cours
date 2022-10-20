@@ -2,7 +2,9 @@
 
 namespace App\Animals;
 
-class Fish extends \App\Animal
+use App\Interfaces\CanSwim;
+
+class Fish extends \App\Animal implements CanSwim
 {
     protected function getNoise(): string
     {
