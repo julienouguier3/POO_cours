@@ -5,6 +5,10 @@
 
 **Composer.lock** = Verrouille la version souhaitée pour tous les utilisateurs.
 
+**Class** = C'est une sorte de plan contenant du code.
+
+**Objet** = Instance d'une class.
+
 | Class                                                 | Objet      |
 |-------------------------------------------------------|------------|
 | Propriété <br/> (variable)<br/>Méthode<br/>(fonction) | $var = new |
