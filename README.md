@@ -11,7 +11,7 @@
 
 **Composer.lock** = Verrouille la version souhaitée pour tous les utilisateurs.
 
-**Class** = C'est une sorte de plan contenant du code.
+**Class** = Patron contenant des attributs et des méthodes permettant de créer des objets en série sur le même modèle. On peut se représenter une classe comme le schéma de construction ainsi que la liste des fonctionnalités d'un ensemble d'objets.
 
 **Classe abstraite** = Ne peux pas être instanciée.
 
